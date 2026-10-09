@@ -5,12 +5,11 @@ h1 {
     color: red;
 }
 
-/*
 p {
     color: #ff3366;
     background-color: #00FF00;
 }
-*/
+
 .specialp {
     color: blue;
     background-color: #FF0000;
@@ -29,7 +28,7 @@ p {
     color: blue;
 }
 
-a{
+a {
     color: #FF0000;
     text-decoration: none;
 }
@@ -42,13 +41,9 @@ a:visited {
     color: #0000FF;
 }
 
-a:active {
-    color: #00FFFF;
-}
-
 a:hover {
     color: #FF00FF;
-    text-decoration: underline;
+    text0decoration: underline;
 }
 
 footer {
