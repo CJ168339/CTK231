@@ -1,0 +1,146 @@
+Redbird Stylesheet
+ body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #292929;
+            background: #ffffff;
+        }
+
+        header {
+            background: linear-gradient(to right, #800000, #c8102e, #ed7b8c);
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: Georgia, "Times New Roman", serif;
+            margin: 0;
+        }
+
+        header h1 a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav {
+            background: #f2eeee;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            display: inline-block;
+            color: #c8102e;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 8px 16px;
+            margin: 3px;
+        }
+
+        nav a:hover {
+            background: white;
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #c8102e;
+            font-family: Georgia, "Times New Roman", serif;
+            text-align: center;
+        }
+
+        h3 {
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 25px;
+        }
+
+        section, aside, .gallery-card {
+            padding: 22px;
+            border: 1px solid #dddddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px #00000012;
+        }
+
+        aside {
+            background: #f7f0f1;
+            font-weight: bold;
+            text-align: justify;
+            border-top: 5px solid #c8102e;
+        }
+
+        a {
+            color: #c8102e;
+        }
+
+        .highlight {
+            background: #fff0f2;
+            border-left: 5px solid #c8102e;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .picture {
+            height: 150px;
+            background: linear-gradient(145deg, #f6cbd2, #c8102e, #75001a);
+            border-radius: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .green {
+            background: linear-gradient(145deg, #b4d6c2, #427e64, #174a38);
+        }
+
+        .blue {
+            background: linear-gradient(145deg, #b8d9ee, #497caa, #203c67);
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            background: #f2eeee;
+        }
+
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        @media (max-width: 700px) {
+            .content, .gallery {
+                grid-template-columns: 1fr;
+            }
+        }

@@ -1,0 +1,184 @@
+RedBird Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Redbird Web Project</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <a href="#welcome" onclick="showPage('welcome')">
+                Redbird Web Project
+            </a>
+        </h1>
+        <p>A student website inspired by Illinois State University</p>
+    </header>
+
+    <nav>
+        <a href="#welcome" onclick="showPage('welcome')">Welcome Page</a>
+        <a href="#about" onclick="showPage('about')">About This Site</a>
+        <a href="#gallery" onclick="showPage('gallery')">Gallery</a>
+    </nav>
+
+    <main>
+
+        <!-- WELCOME PAGE -->
+        <div id="welcome" class="page active">
+            <div class="intro">
+                <h2>Welcome to the Redbird Web Project</h2>
+                <p>Welcome! Explore this website to learn about the project and view the gallery.</p>
+            </div>
+
+            <div class="content">
+                <section>
+                    <h3>A Good Place to Start</h3>
+                    <p>
+                        Thanks for visiting this website. This project contains
+                        three sections: a welcome page, information about the
+                        website, and a gallery of campus-inspired designs.
+                    </p>
+
+                    <p>
+                        Use the navigation menu at the top to explore the
+                        different sections. Each section has its own content,
+                        but the same design is used throughout the website.
+                    </p>
+
+                    <div class="highlight">
+                        <strong>Explore:</strong> Visit the About page to learn
+                        about the design, or open the Gallery to see the artwork.
+                    </div>
+
+                    <h3>What You Will Find Here</h3>
+                    <ul>
+                        <li><a href="#about" onclick="showPage('about')">About This Site</a></li>
+                        <li><a href="#gallery" onclick="showPage('gallery')">Gallery</a></li>
+                        <li>
+                            <a href="https://illinoisstate.edu/" target="_blank">
+                                Illinois State University
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <aside>
+                    <h3>Redbird Note</h3>
+                    <p>
+                        This website uses red and white colors inspired by
+                        Illinois State University. The layout is designed to
+                        keep information organized and easy to read.
+                    </p>
+                    <p>
+                        Click the site title or use the navigation menu to
+                        move between the different pages.
+                    </p>
+                </aside>
+            </div>
+        </div>
+
+        <!-- ABOUT PAGE -->
+        <div id="about" class="page">
+            <div class="intro">
+                <h2>About This Site</h2>
+                <p>Learn more about the purpose and design of this website.</p>
+            </div>
+
+            <div class="content">
+                <section>
+                    <h3>Purpose of the Website</h3>
+                    <p>
+                        This website was created as a three-section microsite.
+                        The welcome section introduces the project, the About
+                        section explains its design, and the Gallery displays
+                        visual examples.
+                    </p>
+
+                    <p>
+                        The website uses Arial or Helvetica for regular text
+                        and Georgia for headings. These fonts create a clear
+                        difference between titles and paragraphs.
+                    </p>
+
+                    <div class="highlight">
+                        <strong>Design goal:</strong> Keep the pages consistent,
+                        the text readable, and the navigation easy to use.
+                    </div>
+
+                    <h3>Shared Design</h3>
+                    <p>
+                        Each section uses the same header, navigation bar,
+                        color palette, and footer. The red gradient makes
+                        the header stand out from the rest of the page.
+                    </p>
+
+                    <p>
+                        Return to the
+                        <a href="#welcome" onclick="showPage('welcome')">Welcome Page</a>
+                        or continue to the
+                        <a href="#gallery" onclick="showPage('gallery')">Gallery</a>.
+                    </p>
+                </section>
+
+                <aside>
+                    <h3>At a Glance</h3>
+                    <p><strong>Three sections:</strong> Welcome, About, and Gallery.</p>
+                    <p><strong>Shared style:</strong> All sections use matching colors and typography.</p>
+                    <p><strong>Easy navigation:</strong> Links help visitors move around the site.</p>
+                </aside>
+            </div>
+        </div>
+
+        <!-- GALLERY PAGE -->
+        <div id="gallery" class="page">
+            <div class="intro">
+                <h2>Gallery</h2>
+                <p>Explore these campus-inspired illustrations.</p>
+            </div>
+
+            <div class="gallery">
+                <div class="gallery-card">
+                    <div class="picture">Campus at Dusk</div>
+                    <h3>Campus at Dusk</h3>
+                    <p>A red sunset-inspired design using the site's main colors.</p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="picture green">Green Spaces</div>
+                    <h3>Green Spaces</h3>
+                    <p>A green color palette inspired by outdoor campus spaces.</p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="picture blue">Blue Hour</div>
+                    <h3>Blue Hour</h3>
+                    <p>A cool blue design that contrasts with the red header.</p>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <strong>Keep exploring:</strong>
+                Return to the
+                <a href="#welcome" onclick="showPage('welcome')">Welcome Page</a>
+                or read
+                <a href="#about" onclick="showPage('about')">About This Site</a>.
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Redbird Web Project</p>
+        <a href="https://illinoisstate.edu/" target="_blank">
+            Illinois State University Official Website
+        </a>
+    </footer>
+
+    
+</body>
+</html>
+
